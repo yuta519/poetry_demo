@@ -2,12 +2,14 @@
 name = "poetry_demo"
 version = "0.1.0"
 description = ""
-authors = ["yuta519 <yuta519.ka23tf@docomo.ne.jp>"]
+authors = ["yuta519 <>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+pendulum = "^1.4"
 
 [tool.poetry.dev-dependencies]
+pytest = "^5.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
